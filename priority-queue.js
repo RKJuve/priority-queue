@@ -67,7 +67,7 @@ var endTime = performance.now();
 console.log("done!! took %s seconds", ((endTime-startTime)/1000));
 
 //now dequeue
-setTimeout(console.log('now dequeuing...'),5000);
+console.log('now dequeuing...');
 startTime = performance.now();
 
 for (i=0; i<10000; i++) {
